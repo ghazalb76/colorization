@@ -1,0 +1,700 @@
+24-07-21 00:17:03.707 - INFO: no distributed
+24-07-21 00:17:03.737 - INFO: cur: NVIDIA GeForce RTX 3080--0; cuda: True; gpus: 1
+24-07-21 00:17:04.176 - INFO: teacher model:  /localhome/gba50/Projects/Colorization/SICNet-main/model/Teacher/chk.pth
+24-07-21 00:17:04.185 - INFO: number of teacher params: 0.81 M
+24-07-21 00:17:04.222 - INFO: number of model_main params: 1.09 M
+24-07-21 00:17:04.222 - INFO: ----start training-----0.2--10-0.1--10---
+24-07-21 00:17:05.198 - INFO: ||train -- epoch:1 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.82372
+24-07-21 00:18:46.975 - INFO: ||train -- epoch:1 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.07112
+24-07-21 00:20:29.297 - INFO: ||train -- epoch:1 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.05487
+24-07-21 00:22:11.704 - INFO: :-------------------------Train: Epoch:0001, timespend:0:05:07, avg_loss:0.06999
+24-07-21 00:22:11.709 - INFO: || Val -- epoch:1 / 100 ------step:1 / 500
+24-07-21 00:23:09.751 - INFO: :Validation: Epoch:0001, timespend:0:00:58, loss_avg:0.0583, psnr_l:19.5201,psnr_r:20.2182,psnr_x:21.7374, ssim_x:0.7998 
+24-07-21 00:23:09.793 - INFO: ----------------CheckPoint:  curEpoch:0001,  PSNR:21.7374,  SSIM:0.799782
+24-07-21 00:23:10.000 - INFO: ||train -- epoch:2 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.04166
+24-07-21 00:24:52.325 - INFO: ||train -- epoch:2 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.09147
+24-07-21 00:26:34.943 - INFO: ||train -- epoch:2 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.02485
+24-07-21 00:28:17.283 - INFO: :-------------------------Train: Epoch:0002, timespend:0:05:07, avg_loss:0.04181
+24-07-21 00:28:17.289 - INFO: || Val -- epoch:2 / 100 ------step:1 / 500
+24-07-21 00:29:15.249 - INFO: :Validation: Epoch:0002, timespend:0:00:57, loss_avg:0.0481, psnr_l:21.9683,psnr_r:21.0587,psnr_x:24.0252, ssim_x:0.8333 
+24-07-21 00:29:15.291 - INFO: ----------------CheckPoint:  curEpoch:0002,  PSNR:24.0252,  SSIM:0.833331
+24-07-21 00:29:15.496 - INFO: ||train -- epoch:3 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.05965
+24-07-21 00:30:57.677 - INFO: ||train -- epoch:3 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.03549
+24-07-21 00:32:40.183 - INFO: ||train -- epoch:3 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.04777
+24-07-21 00:34:22.465 - INFO: :-------------------------Train: Epoch:0003, timespend:0:05:07, avg_loss:0.03640
+24-07-21 00:34:22.470 - INFO: || Val -- epoch:3 / 100 ------step:1 / 500
+24-07-21 00:35:20.674 - INFO: :Validation: Epoch:0003, timespend:0:00:58, loss_avg:0.0500, psnr_l:20.5244,psnr_r:20.0753,psnr_x:23.7970, ssim_x:0.7940 
+24-07-21 00:35:20.716 - INFO: ----------------CheckPoint:  curEpoch:0003,  PSNR:23.797,  SSIM:0.793967
+24-07-21 00:35:20.920 - INFO: ||train -- epoch:4 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.04368
+24-07-21 00:37:03.120 - INFO: ||train -- epoch:4 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.02668
+24-07-21 00:38:45.561 - INFO: ||train -- epoch:4 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.03258
+24-07-21 00:40:27.893 - INFO: :-------------------------Train: Epoch:0004, timespend:0:05:07, avg_loss:0.03189
+24-07-21 00:40:27.898 - INFO: || Val -- epoch:4 / 100 ------step:1 / 500
+24-07-21 00:41:25.526 - INFO: :Validation: Epoch:0004, timespend:0:00:57, loss_avg:0.0406, psnr_l:22.0340,psnr_r:21.8313,psnr_x:24.5142, ssim_x:0.8613 
+24-07-21 00:41:25.567 - INFO: ----------------CheckPoint:  curEpoch:0004,  PSNR:24.5142,  SSIM:0.861275
+24-07-21 00:41:25.774 - INFO: ||train -- epoch:5 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.03912
+24-07-21 00:43:07.966 - INFO: ||train -- epoch:5 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.00741
+24-07-21 00:44:50.497 - INFO: ||train -- epoch:5 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.01906
+24-07-21 00:46:32.763 - INFO: :-------------------------Train: Epoch:0005, timespend:0:05:07, avg_loss:0.02976
+24-07-21 00:46:32.768 - INFO: || Val -- epoch:5 / 100 ------step:1 / 500
+24-07-21 00:47:30.650 - INFO: :Validation: Epoch:0005, timespend:0:00:57, loss_avg:0.0438, psnr_l:21.3257,psnr_r:22.0514,psnr_x:25.0590, ssim_x:0.8520 
+24-07-21 00:47:30.691 - INFO: ----------------CheckPoint:  curEpoch:0005,  PSNR:25.059,  SSIM:0.852036
+24-07-21 00:47:30.898 - INFO: ||train -- epoch:6 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.03841
+24-07-21 00:49:13.164 - INFO: ||train -- epoch:6 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.05977
+24-07-21 00:50:55.631 - INFO: ||train -- epoch:6 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.04438
+24-07-21 00:52:37.908 - INFO: :-------------------------Train: Epoch:0006, timespend:0:05:07, avg_loss:0.02790
+24-07-21 00:52:37.913 - INFO: || Val -- epoch:6 / 100 ------step:1 / 500
+24-07-21 00:53:35.916 - INFO: :Validation: Epoch:0006, timespend:0:00:58, loss_avg:0.0390, psnr_l:23.6314,psnr_r:22.5936,psnr_x:25.4207, ssim_x:0.8629 
+24-07-21 00:53:35.956 - INFO: ----------------CheckPoint:  curEpoch:0006,  PSNR:25.4207,  SSIM:0.862913
+24-07-21 00:53:36.161 - INFO: ||train -- epoch:7 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.03299
+24-07-21 00:55:18.353 - INFO: ||train -- epoch:7 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.02577
+24-07-21 00:57:00.862 - INFO: ||train -- epoch:7 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.02476
+24-07-21 00:58:43.082 - INFO: :-------------------------Train: Epoch:0007, timespend:0:05:07, avg_loss:0.02628
+24-07-21 00:58:43.087 - INFO: || Val -- epoch:7 / 100 ------step:1 / 500
+24-07-21 00:59:40.940 - INFO: :Validation: Epoch:0007, timespend:0:00:57, loss_avg:0.0321, psnr_l:23.4685,psnr_r:22.7942,psnr_x:27.7731, ssim_x:0.9028 
+24-07-21 00:59:40.979 - INFO: ----------------CheckPoint:  curEpoch:0007,  PSNR:27.7731,  SSIM:0.902768
+24-07-21 00:59:41.184 - INFO: ||train -- epoch:8 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.02944
+24-07-21 01:01:23.344 - INFO: ||train -- epoch:8 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.02403
+24-07-21 01:03:05.832 - INFO: ||train -- epoch:8 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.00713
+24-07-21 01:04:48.101 - INFO: :-------------------------Train: Epoch:0008, timespend:0:05:07, avg_loss:0.02466
+24-07-21 01:04:48.106 - INFO: || Val -- epoch:8 / 100 ------step:1 / 500
+24-07-21 01:05:45.721 - INFO: :Validation: Epoch:0008, timespend:0:00:57, loss_avg:0.0301, psnr_l:24.3071,psnr_r:23.2057,psnr_x:27.5209, ssim_x:0.8883 
+24-07-21 01:05:45.762 - INFO: ----------------CheckPoint:  curEpoch:0008,  PSNR:27.5209,  SSIM:0.888305
+24-07-21 01:05:45.965 - INFO: ||train -- epoch:9 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.00638
+24-07-21 01:07:28.178 - INFO: ||train -- epoch:9 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.01780
+24-07-21 01:09:10.660 - INFO: ||train -- epoch:9 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.02689
+24-07-21 01:10:52.924 - INFO: :-------------------------Train: Epoch:0009, timespend:0:05:07, avg_loss:0.02377
+24-07-21 01:10:52.929 - INFO: || Val -- epoch:9 / 100 ------step:1 / 500
+24-07-21 01:11:50.558 - INFO: :Validation: Epoch:0009, timespend:0:00:57, loss_avg:0.0273, psnr_l:25.7493,psnr_r:23.3304,psnr_x:28.3261, ssim_x:0.8885 
+24-07-21 01:11:50.599 - INFO: ----------------CheckPoint:  curEpoch:0009,  PSNR:28.3261,  SSIM:0.888538
+24-07-21 01:11:50.803 - INFO: ||train -- epoch:10 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.00861
+24-07-21 01:13:32.963 - INFO: ||train -- epoch:10 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.04086
+24-07-21 01:15:15.440 - INFO: ||train -- epoch:10 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.01892
+24-07-21 01:16:57.729 - INFO: :-------------------------Train: Epoch:0010, timespend:0:05:07, avg_loss:0.01570
+24-07-21 01:16:57.734 - INFO: || Val -- epoch:10 / 100 ------step:1 / 500
+24-07-21 01:17:55.431 - INFO: :Validation: Epoch:0010, timespend:0:00:57, loss_avg:0.0244, psnr_l:20.6800,psnr_r:20.1798,psnr_x:26.2961, ssim_x:0.8762 
+24-07-21 01:17:55.465 - INFO: ----------------CheckPoint:  curEpoch:0010,  PSNR:26.2961,  SSIM:0.876249
+24-07-21 01:17:55.670 - INFO: ||train -- epoch:11 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.01920
+24-07-21 01:19:37.909 - INFO: ||train -- epoch:11 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.01282
+24-07-21 01:21:20.390 - INFO: ||train -- epoch:11 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.02176
+24-07-21 01:23:02.614 - INFO: :-------------------------Train: Epoch:0011, timespend:0:05:07, avg_loss:0.01464
+24-07-21 01:23:02.619 - INFO: || Val -- epoch:11 / 100 ------step:1 / 500
+24-07-21 01:24:00.384 - INFO: :Validation: Epoch:0011, timespend:0:00:57, loss_avg:0.0239, psnr_l:24.1798,psnr_r:23.1490,psnr_x:27.3147, ssim_x:0.8965 
+24-07-21 01:24:00.426 - INFO: ----------------CheckPoint:  curEpoch:0011,  PSNR:27.3147,  SSIM:0.896518
+24-07-21 01:24:00.632 - INFO: ||train -- epoch:12 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.02280
+24-07-21 01:25:42.795 - INFO: ||train -- epoch:12 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.01232
+24-07-21 01:27:25.243 - INFO: ||train -- epoch:12 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.00781
+24-07-21 01:29:07.499 - INFO: :-------------------------Train: Epoch:0012, timespend:0:05:07, avg_loss:0.01456
+24-07-21 01:29:07.505 - INFO: || Val -- epoch:12 / 100 ------step:1 / 500
+24-07-21 01:30:05.266 - INFO: :Validation: Epoch:0012, timespend:0:00:57, loss_avg:0.0176, psnr_l:24.9866,psnr_r:23.0889,psnr_x:28.7535, ssim_x:0.9094 
+24-07-21 01:30:05.309 - INFO: ----------------CheckPoint:  curEpoch:0012,  PSNR:28.7535,  SSIM:0.909386
+24-07-21 01:30:05.514 - INFO: ||train -- epoch:13 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.01922
+24-07-21 01:31:47.674 - INFO: ||train -- epoch:13 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.01840
+24-07-21 01:33:30.049 - INFO: ||train -- epoch:13 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.01840
+24-07-21 01:35:12.262 - INFO: :-------------------------Train: Epoch:0013, timespend:0:05:06, avg_loss:0.01404
+24-07-21 01:35:12.268 - INFO: || Val -- epoch:13 / 100 ------step:1 / 500
+24-07-21 01:36:09.893 - INFO: :Validation: Epoch:0013, timespend:0:00:57, loss_avg:0.0191, psnr_l:24.2025,psnr_r:23.1246,psnr_x:27.7427, ssim_x:0.9138 
+24-07-21 01:36:09.933 - INFO: ----------------CheckPoint:  curEpoch:0013,  PSNR:27.7427,  SSIM:0.913759
+24-07-21 01:36:10.138 - INFO: ||train -- epoch:14 / 100 --step:1 / 1500 --lr:0.0010000-----curloss: 0.02336
+24-07-21 01:37:52.400 - INFO: ||train -- epoch:14 / 100 --step:501 / 1500 --lr:0.0010000-----curloss: 0.01765
+24-07-21 01:39:34.813 - INFO: ||train -- epoch:14 / 100 --step:1001 / 1500 --lr:0.0010000-----curloss: 0.01848
+24-07-21 01:41:17.013 - INFO: :-------------------------Train: Epoch:0014, timespend:0:05:07, avg_loss:0.01381
+24-07-21 01:41:17.018 - INFO: || Val -- epoch:14 / 100 ------step:1 / 500
+24-07-21 01:42:14.609 - INFO: :Validation: Epoch:0014, timespend:0:00:57, loss_avg:0.0178, psnr_l:25.1919,psnr_r:23.1500,psnr_x:28.5301, ssim_x:0.8760 
+24-07-21 01:42:14.649 - INFO: ----------------CheckPoint:  curEpoch:0014,  PSNR:28.5301,  SSIM:0.876006
+24-07-21 01:42:14.855 - INFO: ||train -- epoch:15 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.01448
+24-07-21 01:43:57.100 - INFO: ||train -- epoch:15 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00871
+24-07-21 01:45:39.476 - INFO: ||train -- epoch:15 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01179
+24-07-21 01:47:21.652 - INFO: :-------------------------Train: Epoch:0015, timespend:0:05:07, avg_loss:0.01036
+24-07-21 01:47:21.657 - INFO: || Val -- epoch:15 / 100 ------step:1 / 500
+24-07-21 01:48:19.199 - INFO: :Validation: Epoch:0015, timespend:0:00:57, loss_avg:0.0150, psnr_l:25.7705,psnr_r:23.3475,psnr_x:29.9549, ssim_x:0.9221 
+24-07-21 01:48:19.241 - INFO: ----------------CheckPoint:  curEpoch:0015,  PSNR:29.9549,  SSIM:0.922085
+24-07-21 01:48:19.448 - INFO: ||train -- epoch:16 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00869
+24-07-21 01:50:01.728 - INFO: ||train -- epoch:16 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.01164
+24-07-21 01:51:44.101 - INFO: ||train -- epoch:16 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01348
+24-07-21 01:53:26.311 - INFO: :-------------------------Train: Epoch:0016, timespend:0:05:07, avg_loss:0.01017
+24-07-21 01:53:26.316 - INFO: || Val -- epoch:16 / 100 ------step:1 / 500
+24-07-21 01:54:24.325 - INFO: :Validation: Epoch:0016, timespend:0:00:58, loss_avg:0.0162, psnr_l:25.5396,psnr_r:23.3795,psnr_x:29.4872, ssim_x:0.9307 
+24-07-21 01:54:24.366 - INFO: ----------------CheckPoint:  curEpoch:0016,  PSNR:29.4872,  SSIM:0.930664
+24-07-21 01:54:24.573 - INFO: ||train -- epoch:17 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.01319
+24-07-21 01:56:06.791 - INFO: ||train -- epoch:17 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00720
+24-07-21 01:57:49.211 - INFO: ||train -- epoch:17 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00762
+24-07-21 01:59:31.372 - INFO: :-------------------------Train: Epoch:0017, timespend:0:05:07, avg_loss:0.01003
+24-07-21 01:59:31.377 - INFO: || Val -- epoch:17 / 100 ------step:1 / 500
+24-07-21 02:00:29.101 - INFO: :Validation: Epoch:0017, timespend:0:00:57, loss_avg:0.0164, psnr_l:25.6228,psnr_r:23.4410,psnr_x:29.4047, ssim_x:0.9275 
+24-07-21 02:00:29.142 - INFO: ----------------CheckPoint:  curEpoch:0017,  PSNR:29.4047,  SSIM:0.927499
+24-07-21 02:00:29.348 - INFO: ||train -- epoch:18 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.01893
+24-07-21 02:02:11.574 - INFO: ||train -- epoch:18 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00219
+24-07-21 02:03:53.971 - INFO: ||train -- epoch:18 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01287
+24-07-21 02:05:36.119 - INFO: :-------------------------Train: Epoch:0018, timespend:0:05:06, avg_loss:0.01010
+24-07-21 02:05:36.125 - INFO: || Val -- epoch:18 / 100 ------step:1 / 500
+24-07-21 02:06:33.699 - INFO: :Validation: Epoch:0018, timespend:0:00:57, loss_avg:0.0138, psnr_l:25.5396,psnr_r:23.3338,psnr_x:30.0069, ssim_x:0.9272 
+24-07-21 02:06:33.749 - INFO: ----------------CheckPoint:  curEpoch:0018,  PSNR:30.0069,  SSIM:0.927244
+24-07-21 02:06:33.954 - INFO: ||train -- epoch:19 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00662
+24-07-21 02:08:16.224 - INFO: ||train -- epoch:19 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00829
+24-07-21 02:09:58.610 - INFO: ||train -- epoch:19 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00874
+24-07-21 02:11:40.751 - INFO: :-------------------------Train: Epoch:0019, timespend:0:05:07, avg_loss:0.00956
+24-07-21 02:11:40.756 - INFO: || Val -- epoch:19 / 100 ------step:1 / 500
+24-07-21 02:12:38.370 - INFO: :Validation: Epoch:0019, timespend:0:00:57, loss_avg:0.0171, psnr_l:25.6079,psnr_r:23.2772,psnr_x:29.6035, ssim_x:0.9371 
+24-07-21 02:12:38.411 - INFO: ----------------CheckPoint:  curEpoch:0019,  PSNR:29.6035,  SSIM:0.9371
+24-07-21 02:12:38.617 - INFO: ||train -- epoch:20 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.01291
+24-07-21 02:14:20.813 - INFO: ||train -- epoch:20 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00841
+24-07-21 02:16:03.245 - INFO: ||train -- epoch:20 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00622
+24-07-21 02:17:45.426 - INFO: :-------------------------Train: Epoch:0020, timespend:0:05:07, avg_loss:0.00884
+24-07-21 02:17:45.431 - INFO: || Val -- epoch:20 / 100 ------step:1 / 500
+24-07-21 02:18:43.307 - INFO: :Validation: Epoch:0020, timespend:0:00:57, loss_avg:0.0131, psnr_l:25.8186,psnr_r:23.4845,psnr_x:30.1323, ssim_x:0.9348 
+24-07-21 02:18:43.347 - INFO: ----------------CheckPoint:  curEpoch:0020,  PSNR:30.1323,  SSIM:0.934799
+24-07-21 02:18:43.553 - INFO: ||train -- epoch:21 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00660
+24-07-21 02:20:25.771 - INFO: ||train -- epoch:21 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00671
+24-07-21 02:22:08.152 - INFO: ||train -- epoch:21 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01044
+24-07-21 02:23:50.311 - INFO: :-------------------------Train: Epoch:0021, timespend:0:05:06, avg_loss:0.00894
+24-07-21 02:23:50.316 - INFO: || Val -- epoch:21 / 100 ------step:1 / 500
+24-07-21 02:24:48.174 - INFO: :Validation: Epoch:0021, timespend:0:00:57, loss_avg:0.0122, psnr_l:25.3442,psnr_r:23.3134,psnr_x:30.3293, ssim_x:0.9352 
+24-07-21 02:24:48.214 - INFO: ----------------CheckPoint:  curEpoch:0021,  PSNR:30.3293,  SSIM:0.935184
+24-07-21 02:24:48.421 - INFO: ||train -- epoch:22 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00759
+24-07-21 02:26:30.666 - INFO: ||train -- epoch:22 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00935
+24-07-21 02:28:13.097 - INFO: ||train -- epoch:22 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01313
+24-07-21 02:29:55.258 - INFO: :-------------------------Train: Epoch:0022, timespend:0:05:07, avg_loss:0.00857
+24-07-21 02:29:55.263 - INFO: || Val -- epoch:22 / 100 ------step:1 / 500
+24-07-21 02:30:52.982 - INFO: :Validation: Epoch:0022, timespend:0:00:57, loss_avg:0.0123, psnr_l:25.5398,psnr_r:23.2962,psnr_x:30.4750, ssim_x:0.9297 
+24-07-21 02:30:53.022 - INFO: ----------------CheckPoint:  curEpoch:0022,  PSNR:30.475,  SSIM:0.92968
+24-07-21 02:30:53.227 - INFO: ||train -- epoch:23 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00334
+24-07-21 02:32:35.484 - INFO: ||train -- epoch:23 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.01809
+24-07-21 02:34:17.896 - INFO: ||train -- epoch:23 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01400
+24-07-21 02:36:00.078 - INFO: :-------------------------Train: Epoch:0023, timespend:0:05:07, avg_loss:0.00879
+24-07-21 02:36:00.083 - INFO: || Val -- epoch:23 / 100 ------step:1 / 500
+24-07-21 02:36:57.892 - INFO: :Validation: Epoch:0023, timespend:0:00:57, loss_avg:0.0118, psnr_l:25.5502,psnr_r:23.4373,psnr_x:30.7708, ssim_x:0.9392 
+24-07-21 02:36:57.933 - INFO: ----------------CheckPoint:  curEpoch:0023,  PSNR:30.7708,  SSIM:0.939226
+24-07-21 02:36:58.136 - INFO: ||train -- epoch:24 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00100
+24-07-21 02:38:40.379 - INFO: ||train -- epoch:24 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00716
+24-07-21 02:40:22.794 - INFO: ||train -- epoch:24 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00539
+24-07-21 02:42:04.975 - INFO: :-------------------------Train: Epoch:0024, timespend:0:05:07, avg_loss:0.00834
+24-07-21 02:42:04.980 - INFO: || Val -- epoch:24 / 100 ------step:1 / 500
+24-07-21 02:43:02.809 - INFO: :Validation: Epoch:0024, timespend:0:00:57, loss_avg:0.0124, psnr_l:25.0499,psnr_r:23.2368,psnr_x:30.2950, ssim_x:0.9409 
+24-07-21 02:43:02.852 - INFO: ----------------CheckPoint:  curEpoch:0024,  PSNR:30.295,  SSIM:0.940879
+24-07-21 02:43:03.058 - INFO: ||train -- epoch:25 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.01113
+24-07-21 02:44:45.234 - INFO: ||train -- epoch:25 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.01002
+24-07-21 02:46:27.633 - INFO: ||train -- epoch:25 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00986
+24-07-21 02:48:09.843 - INFO: :-------------------------Train: Epoch:0025, timespend:0:05:06, avg_loss:0.00826
+24-07-21 02:48:09.848 - INFO: || Val -- epoch:25 / 100 ------step:1 / 500
+24-07-21 02:49:07.589 - INFO: :Validation: Epoch:0025, timespend:0:00:57, loss_avg:0.0123, psnr_l:25.2293,psnr_r:23.3967,psnr_x:30.5092, ssim_x:0.9363 
+24-07-21 02:49:07.630 - INFO: ----------------CheckPoint:  curEpoch:0025,  PSNR:30.5092,  SSIM:0.936334
+24-07-21 02:49:07.834 - INFO: ||train -- epoch:26 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00094
+24-07-21 02:50:50.116 - INFO: ||train -- epoch:26 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00848
+24-07-21 02:52:32.416 - INFO: ||train -- epoch:26 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01365
+24-07-21 02:54:14.595 - INFO: :-------------------------Train: Epoch:0026, timespend:0:05:06, avg_loss:0.00882
+24-07-21 02:54:14.600 - INFO: || Val -- epoch:26 / 100 ------step:1 / 500
+24-07-21 02:55:12.413 - INFO: :Validation: Epoch:0026, timespend:0:00:57, loss_avg:0.0146, psnr_l:25.5357,psnr_r:23.3281,psnr_x:30.4031, ssim_x:0.9375 
+24-07-21 02:55:12.454 - INFO: ----------------CheckPoint:  curEpoch:0026,  PSNR:30.4031,  SSIM:0.937502
+24-07-21 02:55:12.661 - INFO: ||train -- epoch:27 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.01423
+24-07-21 02:56:54.846 - INFO: ||train -- epoch:27 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.01284
+24-07-21 02:58:37.230 - INFO: ||train -- epoch:27 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00776
+24-07-21 03:00:19.427 - INFO: :-------------------------Train: Epoch:0027, timespend:0:05:06, avg_loss:0.00848
+24-07-21 03:00:19.432 - INFO: || Val -- epoch:27 / 100 ------step:1 / 500
+24-07-21 03:01:17.013 - INFO: :Validation: Epoch:0027, timespend:0:00:57, loss_avg:0.0133, psnr_l:24.6572,psnr_r:23.1962,psnr_x:30.2734, ssim_x:0.9231 
+24-07-21 03:01:17.053 - INFO: ----------------CheckPoint:  curEpoch:0027,  PSNR:30.2734,  SSIM:0.923131
+24-07-21 03:01:17.257 - INFO: ||train -- epoch:28 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00634
+24-07-21 03:02:59.507 - INFO: ||train -- epoch:28 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00172
+24-07-21 03:04:41.882 - INFO: ||train -- epoch:28 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.01125
+24-07-21 03:06:24.130 - INFO: :-------------------------Train: Epoch:0028, timespend:0:05:07, avg_loss:0.00847
+24-07-21 03:06:24.135 - INFO: || Val -- epoch:28 / 100 ------step:1 / 500
+24-07-21 03:07:22.177 - INFO: :Validation: Epoch:0028, timespend:0:00:58, loss_avg:0.0124, psnr_l:25.6001,psnr_r:23.2794,psnr_x:30.6422, ssim_x:0.9401 
+24-07-21 03:07:22.218 - INFO: ----------------CheckPoint:  curEpoch:0028,  PSNR:30.6422,  SSIM:0.940057
+24-07-21 03:07:22.423 - INFO: ||train -- epoch:29 / 100 --step:1 / 1500 --lr:0.0005000-----curloss: 0.00913
+24-07-21 03:09:04.698 - INFO: ||train -- epoch:29 / 100 --step:501 / 1500 --lr:0.0005000-----curloss: 0.00616
+24-07-21 03:10:47.082 - INFO: ||train -- epoch:29 / 100 --step:1001 / 1500 --lr:0.0005000-----curloss: 0.00535
+24-07-21 03:12:29.248 - INFO: :-------------------------Train: Epoch:0029, timespend:0:05:07, avg_loss:0.00821
+24-07-21 03:12:29.253 - INFO: || Val -- epoch:29 / 100 ------step:1 / 500
+24-07-21 03:13:27.742 - INFO: :Validation: Epoch:0029, timespend:0:00:58, loss_avg:0.0121, psnr_l:25.1743,psnr_r:23.3053,psnr_x:30.7350, ssim_x:0.9375 
+24-07-21 03:13:27.783 - INFO: ----------------CheckPoint:  curEpoch:0029,  PSNR:30.735,  SSIM:0.937468
+24-07-21 03:13:27.989 - INFO: ||train -- epoch:30 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00625
+24-07-21 03:15:10.207 - INFO: ||train -- epoch:30 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00838
+24-07-21 03:16:52.631 - INFO: ||train -- epoch:30 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00846
+24-07-21 03:18:34.833 - INFO: :-------------------------Train: Epoch:0030, timespend:0:05:07, avg_loss:0.00691
+24-07-21 03:18:34.838 - INFO: || Val -- epoch:30 / 100 ------step:1 / 500
+24-07-21 03:19:33.103 - INFO: :Validation: Epoch:0030, timespend:0:00:58, loss_avg:0.0110, psnr_l:25.0620,psnr_r:23.3641,psnr_x:31.0744, ssim_x:0.9464 
+24-07-21 03:19:33.144 - INFO: ----------------CheckPoint:  curEpoch:0030,  PSNR:31.0744,  SSIM:0.946414
+24-07-21 03:19:33.350 - INFO: ||train -- epoch:31 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00774
+24-07-21 03:21:15.623 - INFO: ||train -- epoch:31 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00838
+24-07-21 03:22:58.024 - INFO: ||train -- epoch:31 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00019
+24-07-21 03:24:40.180 - INFO: :-------------------------Train: Epoch:0031, timespend:0:05:07, avg_loss:0.00684
+24-07-21 03:24:40.185 - INFO: || Val -- epoch:31 / 100 ------step:1 / 500
+24-07-21 03:25:38.766 - INFO: :Validation: Epoch:0031, timespend:0:00:58, loss_avg:0.0108, psnr_l:25.1081,psnr_r:23.3000,psnr_x:31.0093, ssim_x:0.9413 
+24-07-21 03:25:38.806 - INFO: ----------------CheckPoint:  curEpoch:0031,  PSNR:31.0093,  SSIM:0.941319
+24-07-21 03:25:39.013 - INFO: ||train -- epoch:32 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.01160
+24-07-21 03:27:21.188 - INFO: ||train -- epoch:32 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00941
+24-07-21 03:29:03.616 - INFO: ||train -- epoch:32 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00513
+24-07-21 03:30:45.828 - INFO: :-------------------------Train: Epoch:0032, timespend:0:05:07, avg_loss:0.00680
+24-07-21 03:30:45.833 - INFO: || Val -- epoch:32 / 100 ------step:1 / 500
+24-07-21 03:31:44.322 - INFO: :Validation: Epoch:0032, timespend:0:00:58, loss_avg:0.0111, psnr_l:25.0244,psnr_r:23.2306,psnr_x:30.9317, ssim_x:0.9468 
+24-07-21 03:31:44.365 - INFO: ----------------CheckPoint:  curEpoch:0032,  PSNR:30.9317,  SSIM:0.946823
+24-07-21 03:31:44.571 - INFO: ||train -- epoch:33 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00727
+24-07-21 03:33:26.803 - INFO: ||train -- epoch:33 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00050
+24-07-21 03:35:09.170 - INFO: ||train -- epoch:33 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00538
+24-07-21 03:36:51.255 - INFO: :-------------------------Train: Epoch:0033, timespend:0:05:06, avg_loss:0.00677
+24-07-21 03:36:51.260 - INFO: || Val -- epoch:33 / 100 ------step:1 / 500
+24-07-21 03:37:49.882 - INFO: :Validation: Epoch:0033, timespend:0:00:58, loss_avg:0.0108, psnr_l:25.4868,psnr_r:23.3509,psnr_x:30.9453, ssim_x:0.9460 
+24-07-21 03:37:49.919 - INFO: ----------------CheckPoint:  curEpoch:0033,  PSNR:30.9453,  SSIM:0.945989
+24-07-21 03:37:50.124 - INFO: ||train -- epoch:34 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00621
+24-07-21 03:39:32.272 - INFO: ||train -- epoch:34 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00791
+24-07-21 03:41:14.669 - INFO: ||train -- epoch:34 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00575
+24-07-21 03:42:56.788 - INFO: :-------------------------Train: Epoch:0034, timespend:0:05:06, avg_loss:0.00678
+24-07-21 03:42:56.793 - INFO: || Val -- epoch:34 / 100 ------step:1 / 500
+24-07-21 03:43:55.292 - INFO: :Validation: Epoch:0034, timespend:0:00:58, loss_avg:0.0105, psnr_l:25.5263,psnr_r:23.3762,psnr_x:31.1773, ssim_x:0.9489 
+24-07-21 03:43:55.333 - INFO: ----------------CheckPoint:  curEpoch:0034,  PSNR:31.1773,  SSIM:0.948869
+24-07-21 03:43:55.539 - INFO: ||train -- epoch:35 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00836
+24-07-21 03:45:37.674 - INFO: ||train -- epoch:35 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00561
+24-07-21 03:47:20.024 - INFO: ||train -- epoch:35 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00768
+24-07-21 03:49:02.180 - INFO: :-------------------------Train: Epoch:0035, timespend:0:05:06, avg_loss:0.00667
+24-07-21 03:49:02.185 - INFO: || Val -- epoch:35 / 100 ------step:1 / 500
+24-07-21 03:50:00.795 - INFO: :Validation: Epoch:0035, timespend:0:00:58, loss_avg:0.0106, psnr_l:25.5729,psnr_r:23.2644,psnr_x:31.1150, ssim_x:0.9483 
+24-07-21 03:50:00.838 - INFO: ----------------CheckPoint:  curEpoch:0035,  PSNR:31.115,  SSIM:0.948306
+24-07-21 03:50:01.044 - INFO: ||train -- epoch:36 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00600
+24-07-21 03:51:43.256 - INFO: ||train -- epoch:36 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00074
+24-07-21 03:53:25.607 - INFO: ||train -- epoch:36 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00483
+24-07-21 03:55:07.744 - INFO: :-------------------------Train: Epoch:0036, timespend:0:05:06, avg_loss:0.00670
+24-07-21 03:55:07.749 - INFO: || Val -- epoch:36 / 100 ------step:1 / 500
+24-07-21 03:56:06.501 - INFO: :Validation: Epoch:0036, timespend:0:00:58, loss_avg:0.0106, psnr_l:25.4857,psnr_r:23.3233,psnr_x:31.0111, ssim_x:0.9450 
+24-07-21 03:56:06.543 - INFO: ----------------CheckPoint:  curEpoch:0036,  PSNR:31.0111,  SSIM:0.944951
+24-07-21 03:56:06.749 - INFO: ||train -- epoch:37 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00769
+24-07-21 03:57:48.920 - INFO: ||train -- epoch:37 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00058
+24-07-21 03:59:31.192 - INFO: ||train -- epoch:37 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00773
+24-07-21 04:01:13.346 - INFO: :-------------------------Train: Epoch:0037, timespend:0:05:06, avg_loss:0.00655
+24-07-21 04:01:13.351 - INFO: || Val -- epoch:37 / 100 ------step:1 / 500
+24-07-21 04:02:12.115 - INFO: :Validation: Epoch:0037, timespend:0:00:58, loss_avg:0.0110, psnr_l:25.2093,psnr_r:23.2719,psnr_x:30.9833, ssim_x:0.9422 
+24-07-21 04:02:12.157 - INFO: ----------------CheckPoint:  curEpoch:0037,  PSNR:30.9833,  SSIM:0.942234
+24-07-21 04:02:12.362 - INFO: ||train -- epoch:38 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00961
+24-07-21 04:03:54.530 - INFO: ||train -- epoch:38 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00902
+24-07-21 04:05:36.874 - INFO: ||train -- epoch:38 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00539
+24-07-21 04:07:19.050 - INFO: :-------------------------Train: Epoch:0038, timespend:0:05:06, avg_loss:0.00659
+24-07-21 04:07:19.055 - INFO: || Val -- epoch:38 / 100 ------step:1 / 500
+24-07-21 04:08:17.788 - INFO: :Validation: Epoch:0038, timespend:0:00:58, loss_avg:0.0108, psnr_l:25.3529,psnr_r:23.2011,psnr_x:30.9835, ssim_x:0.9467 
+24-07-21 04:08:17.829 - INFO: ----------------CheckPoint:  curEpoch:0038,  PSNR:30.9835,  SSIM:0.946683
+24-07-21 04:08:18.031 - INFO: ||train -- epoch:39 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00315
+24-07-21 04:10:00.220 - INFO: ||train -- epoch:39 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00468
+24-07-21 04:11:42.559 - INFO: ||train -- epoch:39 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00061
+24-07-21 04:13:24.705 - INFO: :-------------------------Train: Epoch:0039, timespend:0:05:06, avg_loss:0.00660
+24-07-21 04:13:24.710 - INFO: || Val -- epoch:39 / 100 ------step:1 / 500
+24-07-21 04:14:23.301 - INFO: :Validation: Epoch:0039, timespend:0:00:58, loss_avg:0.0114, psnr_l:25.5630,psnr_r:23.3046,psnr_x:30.9300, ssim_x:0.9433 
+24-07-21 04:14:23.344 - INFO: ----------------CheckPoint:  curEpoch:0039,  PSNR:30.93,  SSIM:0.943264
+24-07-21 04:14:23.549 - INFO: ||train -- epoch:40 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00677
+24-07-21 04:16:05.788 - INFO: ||train -- epoch:40 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00491
+24-07-21 04:17:48.148 - INFO: ||train -- epoch:40 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00676
+24-07-21 04:19:30.343 - INFO: :-------------------------Train: Epoch:0040, timespend:0:05:06, avg_loss:0.00644
+24-07-21 04:19:30.348 - INFO: || Val -- epoch:40 / 100 ------step:1 / 500
+24-07-21 04:20:28.894 - INFO: :Validation: Epoch:0040, timespend:0:00:58, loss_avg:0.0107, psnr_l:25.2177,psnr_r:23.0995,psnr_x:31.1174, ssim_x:0.9484 
+24-07-21 04:20:28.936 - INFO: ----------------CheckPoint:  curEpoch:0040,  PSNR:31.1174,  SSIM:0.948404
+24-07-21 04:20:29.142 - INFO: ||train -- epoch:41 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00929
+24-07-21 04:22:11.308 - INFO: ||train -- epoch:41 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00950
+24-07-21 04:23:53.670 - INFO: ||train -- epoch:41 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00549
+24-07-21 04:25:35.811 - INFO: :-------------------------Train: Epoch:0041, timespend:0:05:06, avg_loss:0.00645
+24-07-21 04:25:35.816 - INFO: || Val -- epoch:41 / 100 ------step:1 / 500
+24-07-21 04:26:34.511 - INFO: :Validation: Epoch:0041, timespend:0:00:58, loss_avg:0.0113, psnr_l:24.4193,psnr_r:23.1996,psnr_x:30.9637, ssim_x:0.9478 
+24-07-21 04:26:34.553 - INFO: ----------------CheckPoint:  curEpoch:0041,  PSNR:30.9637,  SSIM:0.947844
+24-07-21 04:26:34.758 - INFO: ||train -- epoch:42 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00820
+24-07-21 04:28:16.922 - INFO: ||train -- epoch:42 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00086
+24-07-21 04:29:59.213 - INFO: ||train -- epoch:42 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00852
+24-07-21 04:31:41.340 - INFO: :-------------------------Train: Epoch:0042, timespend:0:05:06, avg_loss:0.00650
+24-07-21 04:31:41.345 - INFO: || Val -- epoch:42 / 100 ------step:1 / 500
+24-07-21 04:32:39.969 - INFO: :Validation: Epoch:0042, timespend:0:00:58, loss_avg:0.0160, psnr_l:24.7723,psnr_r:23.2482,psnr_x:29.2801, ssim_x:0.9444 
+24-07-21 04:32:40.009 - INFO: ----------------CheckPoint:  curEpoch:0042,  PSNR:29.2801,  SSIM:0.94441
+24-07-21 04:32:40.215 - INFO: ||train -- epoch:43 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.01192
+24-07-21 04:34:22.333 - INFO: ||train -- epoch:43 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00748
+24-07-21 04:36:04.635 - INFO: ||train -- epoch:43 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00016
+24-07-21 04:37:46.800 - INFO: :-------------------------Train: Epoch:0043, timespend:0:05:06, avg_loss:0.00646
+24-07-21 04:37:46.805 - INFO: || Val -- epoch:43 / 100 ------step:1 / 500
+24-07-21 04:38:45.373 - INFO: :Validation: Epoch:0043, timespend:0:00:58, loss_avg:0.0108, psnr_l:24.4604,psnr_r:23.2923,psnr_x:31.1091, ssim_x:0.9438 
+24-07-21 04:38:45.412 - INFO: ----------------CheckPoint:  curEpoch:0043,  PSNR:31.1091,  SSIM:0.943817
+24-07-21 04:38:45.616 - INFO: ||train -- epoch:44 / 100 --step:1 / 1500 --lr:0.0002500-----curloss: 0.00107
+24-07-21 04:40:27.839 - INFO: ||train -- epoch:44 / 100 --step:501 / 1500 --lr:0.0002500-----curloss: 0.00528
+24-07-21 04:42:10.189 - INFO: ||train -- epoch:44 / 100 --step:1001 / 1500 --lr:0.0002500-----curloss: 0.00667
+24-07-21 04:43:52.290 - INFO: :-------------------------Train: Epoch:0044, timespend:0:05:06, avg_loss:0.00639
+24-07-21 04:43:52.295 - INFO: || Val -- epoch:44 / 100 ------step:1 / 500
+24-07-21 04:44:50.678 - INFO: :Validation: Epoch:0044, timespend:0:00:58, loss_avg:0.0104, psnr_l:25.3469,psnr_r:23.3292,psnr_x:31.1401, ssim_x:0.9448 
+24-07-21 04:44:50.719 - INFO: ----------------CheckPoint:  curEpoch:0044,  PSNR:31.1401,  SSIM:0.944762
+24-07-21 04:44:50.922 - INFO: ||train -- epoch:45 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00165
+24-07-21 04:46:33.064 - INFO: ||train -- epoch:45 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00547
+24-07-21 04:48:15.407 - INFO: ||train -- epoch:45 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00011
+24-07-21 04:49:57.521 - INFO: :-------------------------Train: Epoch:0045, timespend:0:05:06, avg_loss:0.00584
+24-07-21 04:49:57.526 - INFO: || Val -- epoch:45 / 100 ------step:1 / 500
+24-07-21 04:50:55.995 - INFO: :Validation: Epoch:0045, timespend:0:00:58, loss_avg:0.0102, psnr_l:25.1928,psnr_r:23.1902,psnr_x:31.2200, ssim_x:0.9487 
+24-07-21 04:50:56.037 - INFO: ----------------CheckPoint:  curEpoch:0045,  PSNR:31.22,  SSIM:0.948709
+24-07-21 04:50:56.244 - INFO: ||train -- epoch:46 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00539
+24-07-21 04:52:38.419 - INFO: ||train -- epoch:46 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00631
+24-07-21 04:54:20.753 - INFO: ||train -- epoch:46 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00683
+24-07-21 04:56:02.864 - INFO: :-------------------------Train: Epoch:0046, timespend:0:05:06, avg_loss:0.00581
+24-07-21 04:56:02.869 - INFO: || Val -- epoch:46 / 100 ------step:1 / 500
+24-07-21 04:57:01.457 - INFO: :Validation: Epoch:0046, timespend:0:00:58, loss_avg:0.0104, psnr_l:25.3246,psnr_r:23.2659,psnr_x:31.2035, ssim_x:0.9494 
+24-07-21 04:57:01.498 - INFO: ----------------CheckPoint:  curEpoch:0046,  PSNR:31.2035,  SSIM:0.949446
+24-07-21 04:57:01.704 - INFO: ||train -- epoch:47 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00820
+24-07-21 04:58:43.813 - INFO: ||train -- epoch:47 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00092
+24-07-21 05:00:26.179 - INFO: ||train -- epoch:47 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00406
+24-07-21 05:02:08.298 - INFO: :-------------------------Train: Epoch:0047, timespend:0:05:06, avg_loss:0.00581
+24-07-21 05:02:08.303 - INFO: || Val -- epoch:47 / 100 ------step:1 / 500
+24-07-21 05:03:06.761 - INFO: :Validation: Epoch:0047, timespend:0:00:58, loss_avg:0.0102, psnr_l:25.1074,psnr_r:23.2460,psnr_x:31.1325, ssim_x:0.9491 
+24-07-21 05:03:06.802 - INFO: ----------------CheckPoint:  curEpoch:0047,  PSNR:31.1325,  SSIM:0.949085
+24-07-21 05:03:07.009 - INFO: ||train -- epoch:48 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00485
+24-07-21 05:04:49.167 - INFO: ||train -- epoch:48 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00087
+24-07-21 05:06:31.534 - INFO: ||train -- epoch:48 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00626
+24-07-21 05:08:13.645 - INFO: :-------------------------Train: Epoch:0048, timespend:0:05:06, avg_loss:0.00578
+24-07-21 05:08:13.650 - INFO: || Val -- epoch:48 / 100 ------step:1 / 500
+24-07-21 05:09:12.209 - INFO: :Validation: Epoch:0048, timespend:0:00:58, loss_avg:0.0104, psnr_l:25.0992,psnr_r:23.2161,psnr_x:31.2136, ssim_x:0.9500 
+24-07-21 05:09:12.250 - INFO: ----------------CheckPoint:  curEpoch:0048,  PSNR:31.2136,  SSIM:0.949995
+24-07-21 05:09:12.456 - INFO: ||train -- epoch:49 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00814
+24-07-21 05:10:54.645 - INFO: ||train -- epoch:49 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00964
+24-07-21 05:12:37.007 - INFO: ||train -- epoch:49 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00740
+24-07-21 05:14:19.105 - INFO: :-------------------------Train: Epoch:0049, timespend:0:05:06, avg_loss:0.00579
+24-07-21 05:14:19.110 - INFO: || Val -- epoch:49 / 100 ------step:1 / 500
+24-07-21 05:15:17.769 - INFO: :Validation: Epoch:0049, timespend:0:00:58, loss_avg:0.0100, psnr_l:25.3919,psnr_r:23.2845,psnr_x:31.2627, ssim_x:0.9494 
+24-07-21 05:15:17.811 - INFO: ----------------CheckPoint:  curEpoch:0049,  PSNR:31.2627,  SSIM:0.949385
+24-07-21 05:15:18.016 - INFO: ||train -- epoch:50 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00558
+24-07-21 05:17:00.215 - INFO: ||train -- epoch:50 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00451
+24-07-21 05:18:42.516 - INFO: ||train -- epoch:50 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00755
+24-07-21 05:20:24.635 - INFO: :-------------------------Train: Epoch:0050, timespend:0:05:06, avg_loss:0.00570
+24-07-21 05:20:24.640 - INFO: || Val -- epoch:50 / 100 ------step:1 / 500
+24-07-21 05:21:23.319 - INFO: :Validation: Epoch:0050, timespend:0:00:58, loss_avg:0.0100, psnr_l:25.3268,psnr_r:23.2420,psnr_x:31.2275, ssim_x:0.9494 
+24-07-21 05:21:23.357 - INFO: ----------------CheckPoint:  curEpoch:0050,  PSNR:31.2275,  SSIM:0.949448
+24-07-21 05:21:23.564 - INFO: ||train -- epoch:51 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00994
+24-07-21 05:23:05.735 - INFO: ||train -- epoch:51 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00693
+24-07-21 05:24:48.105 - INFO: ||train -- epoch:51 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00613
+24-07-21 05:26:30.180 - INFO: :-------------------------Train: Epoch:0051, timespend:0:05:06, avg_loss:0.00575
+24-07-21 05:26:30.185 - INFO: || Val -- epoch:51 / 100 ------step:1 / 500
+24-07-21 05:27:28.825 - INFO: :Validation: Epoch:0051, timespend:0:00:58, loss_avg:0.0104, psnr_l:25.0747,psnr_r:23.2042,psnr_x:31.1435, ssim_x:0.9493 
+24-07-21 05:27:28.866 - INFO: ----------------CheckPoint:  curEpoch:0051,  PSNR:31.1435,  SSIM:0.949301
+24-07-21 05:27:29.072 - INFO: ||train -- epoch:52 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00616
+24-07-21 05:29:11.247 - INFO: ||train -- epoch:52 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00437
+24-07-21 05:30:53.572 - INFO: ||train -- epoch:52 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00465
+24-07-21 05:32:35.662 - INFO: :-------------------------Train: Epoch:0052, timespend:0:05:06, avg_loss:0.00571
+24-07-21 05:32:35.667 - INFO: || Val -- epoch:52 / 100 ------step:1 / 500
+24-07-21 05:33:34.211 - INFO: :Validation: Epoch:0052, timespend:0:00:58, loss_avg:0.0101, psnr_l:25.1384,psnr_r:23.2183,psnr_x:31.2631, ssim_x:0.9506 
+24-07-21 05:33:34.252 - INFO: ----------------CheckPoint:  curEpoch:0052,  PSNR:31.2631,  SSIM:0.950554
+24-07-21 05:33:34.458 - INFO: ||train -- epoch:53 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00504
+24-07-21 05:35:16.635 - INFO: ||train -- epoch:53 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00713
+24-07-21 05:36:58.911 - INFO: ||train -- epoch:53 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00037
+24-07-21 05:38:40.963 - INFO: :-------------------------Train: Epoch:0053, timespend:0:05:06, avg_loss:0.00570
+24-07-21 05:38:40.968 - INFO: || Val -- epoch:53 / 100 ------step:1 / 500
+24-07-21 05:39:39.595 - INFO: :Validation: Epoch:0053, timespend:0:00:58, loss_avg:0.0103, psnr_l:25.1184,psnr_r:23.2625,psnr_x:31.1618, ssim_x:0.9482 
+24-07-21 05:39:39.635 - INFO: ----------------CheckPoint:  curEpoch:0053,  PSNR:31.1618,  SSIM:0.948193
+24-07-21 05:39:39.838 - INFO: ||train -- epoch:54 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00086
+24-07-21 05:41:22.024 - INFO: ||train -- epoch:54 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00788
+24-07-21 05:43:04.351 - INFO: ||train -- epoch:54 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00391
+24-07-21 05:44:46.461 - INFO: :-------------------------Train: Epoch:0054, timespend:0:05:06, avg_loss:0.00566
+24-07-21 05:44:46.466 - INFO: || Val -- epoch:54 / 100 ------step:1 / 500
+24-07-21 05:45:45.134 - INFO: :Validation: Epoch:0054, timespend:0:00:58, loss_avg:0.0103, psnr_l:25.2441,psnr_r:23.2485,psnr_x:31.1514, ssim_x:0.9479 
+24-07-21 05:45:45.211 - INFO: ----------------CheckPoint:  curEpoch:0054,  PSNR:31.1514,  SSIM:0.947862
+24-07-21 05:45:45.415 - INFO: ||train -- epoch:55 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00327
+24-07-21 05:47:27.605 - INFO: ||train -- epoch:55 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00599
+24-07-21 05:49:09.974 - INFO: ||train -- epoch:55 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00447
+24-07-21 05:50:52.039 - INFO: :-------------------------Train: Epoch:0055, timespend:0:05:06, avg_loss:0.00565
+24-07-21 05:50:52.044 - INFO: || Val -- epoch:55 / 100 ------step:1 / 500
+24-07-21 05:51:50.637 - INFO: :Validation: Epoch:0055, timespend:0:00:58, loss_avg:0.0103, psnr_l:24.9927,psnr_r:23.1851,psnr_x:31.1179, ssim_x:0.9497 
+24-07-21 05:51:50.676 - INFO: ----------------CheckPoint:  curEpoch:0055,  PSNR:31.1179,  SSIM:0.949715
+24-07-21 05:51:50.883 - INFO: ||train -- epoch:56 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.01132
+24-07-21 05:53:33.005 - INFO: ||train -- epoch:56 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00631
+24-07-21 05:55:15.329 - INFO: ||train -- epoch:56 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00609
+24-07-21 05:56:57.448 - INFO: :-------------------------Train: Epoch:0056, timespend:0:05:06, avg_loss:0.00567
+24-07-21 05:56:57.454 - INFO: || Val -- epoch:56 / 100 ------step:1 / 500
+24-07-21 05:57:56.019 - INFO: :Validation: Epoch:0056, timespend:0:00:58, loss_avg:0.0100, psnr_l:24.9119,psnr_r:23.2415,psnr_x:31.2648, ssim_x:0.9500 
+24-07-21 05:57:56.059 - INFO: ----------------CheckPoint:  curEpoch:0056,  PSNR:31.2648,  SSIM:0.950023
+24-07-21 05:57:56.265 - INFO: ||train -- epoch:57 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.01180
+24-07-21 05:59:38.449 - INFO: ||train -- epoch:57 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00812
+24-07-21 06:01:20.816 - INFO: ||train -- epoch:57 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00044
+24-07-21 06:03:02.883 - INFO: :-------------------------Train: Epoch:0057, timespend:0:05:06, avg_loss:0.00560
+24-07-21 06:03:02.888 - INFO: || Val -- epoch:57 / 100 ------step:1 / 500
+24-07-21 06:04:01.724 - INFO: :Validation: Epoch:0057, timespend:0:00:58, loss_avg:0.0102, psnr_l:24.8635,psnr_r:23.2176,psnr_x:31.3115, ssim_x:0.9490 
+24-07-21 06:04:01.765 - INFO: ----------------CheckPoint:  curEpoch:0057,  PSNR:31.3115,  SSIM:0.949025
+24-07-21 06:04:01.971 - INFO: ||train -- epoch:58 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00562
+24-07-21 06:05:44.136 - INFO: ||train -- epoch:58 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00942
+24-07-21 06:07:26.498 - INFO: ||train -- epoch:58 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00093
+24-07-21 06:09:08.608 - INFO: :-------------------------Train: Epoch:0058, timespend:0:05:06, avg_loss:0.00561
+24-07-21 06:09:08.613 - INFO: || Val -- epoch:58 / 100 ------step:1 / 500
+24-07-21 06:10:07.255 - INFO: :Validation: Epoch:0058, timespend:0:00:58, loss_avg:0.0101, psnr_l:25.0967,psnr_r:23.1433,psnr_x:31.2439, ssim_x:0.9493 
+24-07-21 06:10:07.296 - INFO: ----------------CheckPoint:  curEpoch:0058,  PSNR:31.2439,  SSIM:0.949308
+24-07-21 06:10:07.498 - INFO: ||train -- epoch:59 / 100 --step:1 / 1500 --lr:0.0001250-----curloss: 0.00043
+24-07-21 06:11:49.645 - INFO: ||train -- epoch:59 / 100 --step:501 / 1500 --lr:0.0001250-----curloss: 0.00077
+24-07-21 06:13:31.969 - INFO: ||train -- epoch:59 / 100 --step:1001 / 1500 --lr:0.0001250-----curloss: 0.00812
+24-07-21 06:15:14.107 - INFO: :-------------------------Train: Epoch:0059, timespend:0:05:06, avg_loss:0.00556
+24-07-21 06:15:14.112 - INFO: || Val -- epoch:59 / 100 ------step:1 / 500
+24-07-21 06:16:12.829 - INFO: :Validation: Epoch:0059, timespend:0:00:58, loss_avg:0.0100, psnr_l:25.0365,psnr_r:23.2380,psnr_x:31.2318, ssim_x:0.9493 
+24-07-21 06:16:12.871 - INFO: ----------------CheckPoint:  curEpoch:0059,  PSNR:31.2318,  SSIM:0.949273
+24-07-21 06:16:13.076 - INFO: ||train -- epoch:60 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00423
+24-07-21 06:17:55.205 - INFO: ||train -- epoch:60 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00694
+24-07-21 06:19:37.521 - INFO: ||train -- epoch:60 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00409
+24-07-21 06:21:19.633 - INFO: :-------------------------Train: Epoch:0060, timespend:0:05:06, avg_loss:0.00536
+24-07-21 06:21:19.638 - INFO: || Val -- epoch:60 / 100 ------step:1 / 500
+24-07-21 06:22:18.267 - INFO: :Validation: Epoch:0060, timespend:0:00:58, loss_avg:0.0100, psnr_l:24.9102,psnr_r:23.2166,psnr_x:31.2559, ssim_x:0.9505 
+24-07-21 06:22:18.309 - INFO: ----------------CheckPoint:  curEpoch:0060,  PSNR:31.2559,  SSIM:0.950454
+24-07-21 06:22:18.511 - INFO: ||train -- epoch:61 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00080
+24-07-21 06:24:00.633 - INFO: ||train -- epoch:61 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00078
+24-07-21 06:25:42.993 - INFO: ||train -- epoch:61 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.01050
+24-07-21 06:27:25.108 - INFO: :-------------------------Train: Epoch:0061, timespend:0:05:06, avg_loss:0.00533
+24-07-21 06:27:25.114 - INFO: || Val -- epoch:61 / 100 ------step:1 / 500
+24-07-21 06:28:25.003 - INFO: :Validation: Epoch:0061, timespend:0:00:59, loss_avg:0.0099, psnr_l:24.8814,psnr_r:23.2230,psnr_x:31.2876, ssim_x:0.9504 
+24-07-21 06:28:25.044 - INFO: ----------------CheckPoint:  curEpoch:0061,  PSNR:31.2876,  SSIM:0.950365
+24-07-21 06:28:25.250 - INFO: ||train -- epoch:62 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00514
+24-07-21 06:30:07.419 - INFO: ||train -- epoch:62 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00479
+24-07-21 06:31:49.778 - INFO: ||train -- epoch:62 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00890
+24-07-21 06:33:31.835 - INFO: :-------------------------Train: Epoch:0062, timespend:0:05:06, avg_loss:0.00535
+24-07-21 06:33:31.840 - INFO: || Val -- epoch:62 / 100 ------step:1 / 500
+24-07-21 06:34:30.550 - INFO: :Validation: Epoch:0062, timespend:0:00:58, loss_avg:0.0099, psnr_l:25.0725,psnr_r:23.2372,psnr_x:31.2984, ssim_x:0.9505 
+24-07-21 06:34:30.592 - INFO: ----------------CheckPoint:  curEpoch:0062,  PSNR:31.2984,  SSIM:0.95045
+24-07-21 06:34:30.798 - INFO: ||train -- epoch:63 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.01096
+24-07-21 06:36:12.941 - INFO: ||train -- epoch:63 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00303
+24-07-21 06:37:55.301 - INFO: ||train -- epoch:63 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00605
+24-07-21 06:39:37.406 - INFO: :-------------------------Train: Epoch:0063, timespend:0:05:06, avg_loss:0.00534
+24-07-21 06:39:37.411 - INFO: || Val -- epoch:63 / 100 ------step:1 / 500
+24-07-21 06:40:35.708 - INFO: :Validation: Epoch:0063, timespend:0:00:58, loss_avg:0.0099, psnr_l:24.9393,psnr_r:23.2243,psnr_x:31.2867, ssim_x:0.9502 
+24-07-21 06:40:35.743 - INFO: ----------------CheckPoint:  curEpoch:0063,  PSNR:31.2867,  SSIM:0.95019
+24-07-21 06:40:35.948 - INFO: ||train -- epoch:64 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00567
+24-07-21 06:42:18.113 - INFO: ||train -- epoch:64 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00297
+24-07-21 06:44:00.398 - INFO: ||train -- epoch:64 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00711
+24-07-21 06:45:42.488 - INFO: :-------------------------Train: Epoch:0064, timespend:0:05:06, avg_loss:0.00531
+24-07-21 06:45:42.493 - INFO: || Val -- epoch:64 / 100 ------step:1 / 500
+24-07-21 06:46:40.995 - INFO: :Validation: Epoch:0064, timespend:0:00:58, loss_avg:0.0099, psnr_l:24.9236,psnr_r:23.2118,psnr_x:31.2674, ssim_x:0.9493 
+24-07-21 06:46:41.032 - INFO: ----------------CheckPoint:  curEpoch:0064,  PSNR:31.2674,  SSIM:0.949284
+24-07-21 06:46:41.237 - INFO: ||train -- epoch:65 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.01005
+24-07-21 06:48:23.353 - INFO: ||train -- epoch:65 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00681
+24-07-21 06:50:05.686 - INFO: ||train -- epoch:65 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00034
+24-07-21 06:51:47.743 - INFO: :-------------------------Train: Epoch:0065, timespend:0:05:06, avg_loss:0.00531
+24-07-21 06:51:47.748 - INFO: || Val -- epoch:65 / 100 ------step:1 / 500
+24-07-21 06:52:46.305 - INFO: :Validation: Epoch:0065, timespend:0:00:58, loss_avg:0.0101, psnr_l:25.0394,psnr_r:23.1890,psnr_x:31.2506, ssim_x:0.9503 
+24-07-21 06:52:46.346 - INFO: ----------------CheckPoint:  curEpoch:0065,  PSNR:31.2506,  SSIM:0.950317
+24-07-21 06:52:46.552 - INFO: ||train -- epoch:66 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00886
+24-07-21 06:54:28.622 - INFO: ||train -- epoch:66 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00995
+24-07-21 06:56:10.969 - INFO: ||train -- epoch:66 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00690
+24-07-21 06:57:53.049 - INFO: :-------------------------Train: Epoch:0066, timespend:0:05:06, avg_loss:0.00531
+24-07-21 06:57:53.054 - INFO: || Val -- epoch:66 / 100 ------step:1 / 500
+24-07-21 06:58:51.529 - INFO: :Validation: Epoch:0066, timespend:0:00:58, loss_avg:0.0099, psnr_l:24.9512,psnr_r:23.2037,psnr_x:31.2841, ssim_x:0.9500 
+24-07-21 06:58:51.571 - INFO: ----------------CheckPoint:  curEpoch:0066,  PSNR:31.2841,  SSIM:0.95005
+24-07-21 06:58:51.777 - INFO: ||train -- epoch:67 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00470
+24-07-21 07:00:33.918 - INFO: ||train -- epoch:67 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00492
+24-07-21 07:02:16.208 - INFO: ||train -- epoch:67 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00473
+24-07-21 07:03:58.240 - INFO: :-------------------------Train: Epoch:0067, timespend:0:05:06, avg_loss:0.00529
+24-07-21 07:03:58.245 - INFO: || Val -- epoch:67 / 100 ------step:1 / 500
+24-07-21 07:04:56.818 - INFO: :Validation: Epoch:0067, timespend:0:00:58, loss_avg:0.0101, psnr_l:24.8907,psnr_r:23.2131,psnr_x:31.2319, ssim_x:0.9504 
+24-07-21 07:04:56.857 - INFO: ----------------CheckPoint:  curEpoch:0067,  PSNR:31.2319,  SSIM:0.950444
+24-07-21 07:04:57.063 - INFO: ||train -- epoch:68 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00551
+24-07-21 07:06:39.137 - INFO: ||train -- epoch:68 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00623
+24-07-21 07:08:21.420 - INFO: ||train -- epoch:68 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00502
+24-07-21 07:10:03.527 - INFO: :-------------------------Train: Epoch:0068, timespend:0:05:06, avg_loss:0.00528
+24-07-21 07:10:03.533 - INFO: || Val -- epoch:68 / 100 ------step:1 / 500
+24-07-21 07:11:02.049 - INFO: :Validation: Epoch:0068, timespend:0:00:58, loss_avg:0.0099, psnr_l:24.8952,psnr_r:23.1908,psnr_x:31.3178, ssim_x:0.9504 
+24-07-21 07:11:02.091 - INFO: ----------------CheckPoint:  curEpoch:0068,  PSNR:31.3178,  SSIM:0.950412
+24-07-21 07:11:02.297 - INFO: ||train -- epoch:69 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00487
+24-07-21 07:12:44.437 - INFO: ||train -- epoch:69 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00392
+24-07-21 07:14:26.759 - INFO: ||train -- epoch:69 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00700
+24-07-21 07:16:08.855 - INFO: :-------------------------Train: Epoch:0069, timespend:0:05:06, avg_loss:0.00529
+24-07-21 07:16:08.860 - INFO: || Val -- epoch:69 / 100 ------step:1 / 500
+24-07-21 07:17:07.548 - INFO: :Validation: Epoch:0069, timespend:0:00:58, loss_avg:0.0099, psnr_l:24.9034,psnr_r:23.1429,psnr_x:31.3340, ssim_x:0.9485 
+24-07-21 07:17:07.593 - INFO: ----------------CheckPoint:  curEpoch:0069,  PSNR:31.334,  SSIM:0.948482
+24-07-21 07:17:07.799 - INFO: ||train -- epoch:70 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00676
+24-07-21 07:18:49.915 - INFO: ||train -- epoch:70 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00679
+24-07-21 07:20:32.317 - INFO: ||train -- epoch:70 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00402
+24-07-21 07:22:14.338 - INFO: :-------------------------Train: Epoch:0070, timespend:0:05:06, avg_loss:0.00526
+24-07-21 07:22:14.343 - INFO: || Val -- epoch:70 / 100 ------step:1 / 500
+24-07-21 07:23:13.086 - INFO: :Validation: Epoch:0070, timespend:0:00:58, loss_avg:0.0098, psnr_l:24.7248,psnr_r:23.1830,psnr_x:31.3159, ssim_x:0.9503 
+24-07-21 07:23:13.127 - INFO: ----------------CheckPoint:  curEpoch:0070,  PSNR:31.3159,  SSIM:0.950315
+24-07-21 07:23:13.333 - INFO: ||train -- epoch:71 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00661
+24-07-21 07:24:55.463 - INFO: ||train -- epoch:71 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00681
+24-07-21 07:26:37.703 - INFO: ||train -- epoch:71 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00520
+24-07-21 07:28:19.747 - INFO: :-------------------------Train: Epoch:0071, timespend:0:05:06, avg_loss:0.00528
+24-07-21 07:28:19.752 - INFO: || Val -- epoch:71 / 100 ------step:1 / 500
+24-07-21 07:29:18.294 - INFO: :Validation: Epoch:0071, timespend:0:00:58, loss_avg:0.0098, psnr_l:24.8018,psnr_r:23.1365,psnr_x:31.3181, ssim_x:0.9474 
+24-07-21 07:29:18.334 - INFO: ----------------CheckPoint:  curEpoch:0071,  PSNR:31.3181,  SSIM:0.947416
+24-07-21 07:29:18.538 - INFO: ||train -- epoch:72 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00037
+24-07-21 07:31:00.658 - INFO: ||train -- epoch:72 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00677
+24-07-21 07:32:42.946 - INFO: ||train -- epoch:72 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00610
+24-07-21 07:34:24.998 - INFO: :-------------------------Train: Epoch:0072, timespend:0:05:06, avg_loss:0.00525
+24-07-21 07:34:25.003 - INFO: || Val -- epoch:72 / 100 ------step:1 / 500
+24-07-21 07:35:23.707 - INFO: :Validation: Epoch:0072, timespend:0:00:58, loss_avg:0.0098, psnr_l:24.9733,psnr_r:23.1672,psnr_x:31.3723, ssim_x:0.9501 
+24-07-21 07:35:23.750 - INFO: ----------------CheckPoint:  curEpoch:0072,  PSNR:31.3723,  SSIM:0.95009
+24-07-21 07:35:23.955 - INFO: ||train -- epoch:73 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00501
+24-07-21 07:37:06.096 - INFO: ||train -- epoch:73 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00489
+24-07-21 07:38:48.345 - INFO: ||train -- epoch:73 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00435
+24-07-21 07:40:30.604 - INFO: :-------------------------Train: Epoch:0073, timespend:0:05:06, avg_loss:0.00525
+24-07-21 07:40:30.609 - INFO: || Val -- epoch:73 / 100 ------step:1 / 500
+24-07-21 07:41:28.552 - INFO: :Validation: Epoch:0073, timespend:0:00:57, loss_avg:0.0099, psnr_l:24.7524,psnr_r:23.1552,psnr_x:31.3042, ssim_x:0.9502 
+24-07-21 07:41:28.595 - INFO: ----------------CheckPoint:  curEpoch:0073,  PSNR:31.3042,  SSIM:0.950198
+24-07-21 07:41:28.800 - INFO: ||train -- epoch:74 / 100 --step:1 / 1500 --lr:0.0000625-----curloss: 0.00454
+24-07-21 07:43:10.882 - INFO: ||train -- epoch:74 / 100 --step:501 / 1500 --lr:0.0000625-----curloss: 0.00668
+24-07-21 07:44:53.209 - INFO: ||train -- epoch:74 / 100 --step:1001 / 1500 --lr:0.0000625-----curloss: 0.00769
+24-07-21 07:46:35.279 - INFO: :-------------------------Train: Epoch:0074, timespend:0:05:06, avg_loss:0.00523
+24-07-21 07:46:35.284 - INFO: || Val -- epoch:74 / 100 ------step:1 / 500
+24-07-21 07:47:33.089 - INFO: :Validation: Epoch:0074, timespend:0:00:57, loss_avg:0.0098, psnr_l:24.8249,psnr_r:23.1901,psnr_x:31.2891, ssim_x:0.9494 
+24-07-21 07:47:33.124 - INFO: ----------------CheckPoint:  curEpoch:0074,  PSNR:31.2891,  SSIM:0.949448
+24-07-21 07:47:33.329 - INFO: ||train -- epoch:75 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00850
+24-07-21 07:49:15.432 - INFO: ||train -- epoch:75 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00607
+24-07-21 07:50:57.723 - INFO: ||train -- epoch:75 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00516
+24-07-21 07:52:39.811 - INFO: :-------------------------Train: Epoch:0075, timespend:0:05:06, avg_loss:0.00513
+24-07-21 07:52:39.816 - INFO: || Val -- epoch:75 / 100 ------step:1 / 500
+24-07-21 07:53:37.491 - INFO: :Validation: Epoch:0075, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.9006,psnr_r:23.1660,psnr_x:31.3587, ssim_x:0.9496 
+24-07-21 07:53:37.532 - INFO: ----------------CheckPoint:  curEpoch:0075,  PSNR:31.3587,  SSIM:0.949639
+24-07-21 07:53:37.739 - INFO: ||train -- epoch:76 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00441
+24-07-21 07:55:19.848 - INFO: ||train -- epoch:76 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00666
+24-07-21 07:57:02.171 - INFO: ||train -- epoch:76 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00027
+24-07-21 07:58:44.234 - INFO: :-------------------------Train: Epoch:0076, timespend:0:05:06, avg_loss:0.00512
+24-07-21 07:58:44.239 - INFO: || Val -- epoch:76 / 100 ------step:1 / 500
+24-07-21 07:59:42.284 - INFO: :Validation: Epoch:0076, timespend:0:00:58, loss_avg:0.0097, psnr_l:24.8741,psnr_r:23.1791,psnr_x:31.3555, ssim_x:0.9505 
+24-07-21 07:59:42.327 - INFO: ----------------CheckPoint:  curEpoch:0076,  PSNR:31.3555,  SSIM:0.950456
+24-07-21 07:59:42.532 - INFO: ||train -- epoch:77 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00513
+24-07-21 08:01:24.650 - INFO: ||train -- epoch:77 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00075
+24-07-21 08:03:06.888 - INFO: ||train -- epoch:77 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00581
+24-07-21 08:04:48.962 - INFO: :-------------------------Train: Epoch:0077, timespend:0:05:06, avg_loss:0.00513
+24-07-21 08:04:48.967 - INFO: || Val -- epoch:77 / 100 ------step:1 / 500
+24-07-21 08:05:47.328 - INFO: :Validation: Epoch:0077, timespend:0:00:58, loss_avg:0.0098, psnr_l:24.8979,psnr_r:23.1572,psnr_x:31.3429, ssim_x:0.9506 
+24-07-21 08:05:47.371 - INFO: ----------------CheckPoint:  curEpoch:0077,  PSNR:31.3429,  SSIM:0.950569
+24-07-21 08:05:47.575 - INFO: ||train -- epoch:78 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00284
+24-07-21 08:07:29.663 - INFO: ||train -- epoch:78 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00590
+24-07-21 08:09:11.937 - INFO: ||train -- epoch:78 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00379
+24-07-21 08:10:54.011 - INFO: :-------------------------Train: Epoch:0078, timespend:0:05:06, avg_loss:0.00511
+24-07-21 08:10:54.016 - INFO: || Val -- epoch:78 / 100 ------step:1 / 500
+24-07-21 08:11:52.523 - INFO: :Validation: Epoch:0078, timespend:0:00:58, loss_avg:0.0097, psnr_l:24.8436,psnr_r:23.1653,psnr_x:31.3449, ssim_x:0.9503 
+24-07-21 08:11:52.565 - INFO: ----------------CheckPoint:  curEpoch:0078,  PSNR:31.3449,  SSIM:0.950258
+24-07-21 08:11:52.767 - INFO: ||train -- epoch:79 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00030
+24-07-21 08:13:34.879 - INFO: ||train -- epoch:79 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00035
+24-07-21 08:15:17.128 - INFO: ||train -- epoch:79 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00658
+24-07-21 08:16:59.143 - INFO: :-------------------------Train: Epoch:0079, timespend:0:05:06, avg_loss:0.00511
+24-07-21 08:16:59.148 - INFO: || Val -- epoch:79 / 100 ------step:1 / 500
+24-07-21 08:17:57.793 - INFO: :Validation: Epoch:0079, timespend:0:00:58, loss_avg:0.0097, psnr_l:24.8382,psnr_r:23.1694,psnr_x:31.3548, ssim_x:0.9502 
+24-07-21 08:17:57.834 - INFO: ----------------CheckPoint:  curEpoch:0079,  PSNR:31.3548,  SSIM:0.950199
+24-07-21 08:17:58.037 - INFO: ||train -- epoch:80 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00074
+24-07-21 08:19:40.161 - INFO: ||train -- epoch:80 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00497
+24-07-21 08:21:22.392 - INFO: ||train -- epoch:80 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00630
+24-07-21 08:23:04.420 - INFO: :-------------------------Train: Epoch:0080, timespend:0:05:06, avg_loss:0.00511
+24-07-21 08:23:04.425 - INFO: || Val -- epoch:80 / 100 ------step:1 / 500
+24-07-21 08:24:03.135 - INFO: :Validation: Epoch:0080, timespend:0:00:58, loss_avg:0.0097, psnr_l:24.8842,psnr_r:23.1826,psnr_x:31.3691, ssim_x:0.9499 
+24-07-21 08:24:03.177 - INFO: ----------------CheckPoint:  curEpoch:0080,  PSNR:31.3691,  SSIM:0.949854
+24-07-21 08:24:03.382 - INFO: ||train -- epoch:81 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00501
+24-07-21 08:25:45.551 - INFO: ||train -- epoch:81 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00347
+24-07-21 08:27:27.751 - INFO: ||train -- epoch:81 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00452
+24-07-21 08:29:09.810 - INFO: :-------------------------Train: Epoch:0081, timespend:0:05:06, avg_loss:0.00510
+24-07-21 08:29:09.815 - INFO: || Val -- epoch:81 / 100 ------step:1 / 500
+24-07-21 08:30:08.220 - INFO: :Validation: Epoch:0081, timespend:0:00:58, loss_avg:0.0097, psnr_l:24.9058,psnr_r:23.1631,psnr_x:31.3482, ssim_x:0.9499 
+24-07-21 08:30:08.261 - INFO: ----------------CheckPoint:  curEpoch:0081,  PSNR:31.3482,  SSIM:0.949939
+24-07-21 08:30:08.466 - INFO: ||train -- epoch:82 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00669
+24-07-21 08:31:50.561 - INFO: ||train -- epoch:82 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00029
+24-07-21 08:33:32.814 - INFO: ||train -- epoch:82 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00608
+24-07-21 08:35:14.897 - INFO: :-------------------------Train: Epoch:0082, timespend:0:05:06, avg_loss:0.00509
+24-07-21 08:35:14.903 - INFO: || Val -- epoch:82 / 100 ------step:1 / 500
+24-07-21 08:36:12.570 - INFO: :Validation: Epoch:0082, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.9273,psnr_r:23.1662,psnr_x:31.3383, ssim_x:0.9499 
+24-07-21 08:36:12.612 - INFO: ----------------CheckPoint:  curEpoch:0082,  PSNR:31.3383,  SSIM:0.949923
+24-07-21 08:36:12.818 - INFO: ||train -- epoch:83 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00463
+24-07-21 08:37:54.913 - INFO: ||train -- epoch:83 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00407
+24-07-21 08:39:37.184 - INFO: ||train -- epoch:83 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00638
+24-07-21 08:41:19.215 - INFO: :-------------------------Train: Epoch:0083, timespend:0:05:06, avg_loss:0.00508
+24-07-21 08:41:19.221 - INFO: || Val -- epoch:83 / 100 ------step:1 / 500
+24-07-21 08:42:16.838 - INFO: :Validation: Epoch:0083, timespend:0:00:57, loss_avg:0.0098, psnr_l:24.8762,psnr_r:23.1364,psnr_x:31.3401, ssim_x:0.9501 
+24-07-21 08:42:16.879 - INFO: ----------------CheckPoint:  curEpoch:0083,  PSNR:31.3401,  SSIM:0.950115
+24-07-21 08:42:17.086 - INFO: ||train -- epoch:84 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00576
+24-07-21 08:43:59.175 - INFO: ||train -- epoch:84 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00524
+24-07-21 08:45:41.463 - INFO: ||train -- epoch:84 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00491
+24-07-21 08:47:23.479 - INFO: :-------------------------Train: Epoch:0084, timespend:0:05:06, avg_loss:0.00509
+24-07-21 08:47:23.484 - INFO: || Val -- epoch:84 / 100 ------step:1 / 500
+24-07-21 08:48:21.160 - INFO: :Validation: Epoch:0084, timespend:0:00:57, loss_avg:0.0098, psnr_l:24.9533,psnr_r:23.1512,psnr_x:31.3389, ssim_x:0.9494 
+24-07-21 08:48:21.199 - INFO: ----------------CheckPoint:  curEpoch:0084,  PSNR:31.3389,  SSIM:0.949375
+24-07-21 08:48:21.405 - INFO: ||train -- epoch:85 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00381
+24-07-21 08:50:03.508 - INFO: ||train -- epoch:85 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00446
+24-07-21 08:51:45.744 - INFO: ||train -- epoch:85 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00032
+24-07-21 08:53:27.760 - INFO: :-------------------------Train: Epoch:0085, timespend:0:05:06, avg_loss:0.00508
+24-07-21 08:53:27.765 - INFO: || Val -- epoch:85 / 100 ------step:1 / 500
+24-07-21 08:54:25.364 - INFO: :Validation: Epoch:0085, timespend:0:00:57, loss_avg:0.0099, psnr_l:24.8026,psnr_r:23.1590,psnr_x:31.3112, ssim_x:0.9497 
+24-07-21 08:54:25.404 - INFO: ----------------CheckPoint:  curEpoch:0085,  PSNR:31.3112,  SSIM:0.94965
+24-07-21 08:54:25.610 - INFO: ||train -- epoch:86 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00431
+24-07-21 08:56:07.613 - INFO: ||train -- epoch:86 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00657
+24-07-21 08:57:49.716 - INFO: ||train -- epoch:86 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00681
+24-07-21 08:59:31.644 - INFO: :-------------------------Train: Epoch:0086, timespend:0:05:06, avg_loss:0.00506
+24-07-21 08:59:31.649 - INFO: || Val -- epoch:86 / 100 ------step:1 / 500
+24-07-21 09:00:29.180 - INFO: :Validation: Epoch:0086, timespend:0:00:57, loss_avg:0.0098, psnr_l:24.9117,psnr_r:23.1643,psnr_x:31.3311, ssim_x:0.9507 
+24-07-21 09:00:29.220 - INFO: ----------------CheckPoint:  curEpoch:0086,  PSNR:31.3311,  SSIM:0.950738
+24-07-21 09:00:29.425 - INFO: ||train -- epoch:87 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00715
+24-07-21 09:02:11.426 - INFO: ||train -- epoch:87 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00033
+24-07-21 09:03:53.566 - INFO: ||train -- epoch:87 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00029
+24-07-21 09:05:35.541 - INFO: :-------------------------Train: Epoch:0087, timespend:0:05:06, avg_loss:0.00507
+24-07-21 09:05:35.547 - INFO: || Val -- epoch:87 / 100 ------step:1 / 500
+24-07-21 09:06:33.247 - INFO: :Validation: Epoch:0087, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8957,psnr_r:23.1433,psnr_x:31.3424, ssim_x:0.9501 
+24-07-21 09:06:33.289 - INFO: ----------------CheckPoint:  curEpoch:0087,  PSNR:31.3424,  SSIM:0.950058
+24-07-21 09:06:33.495 - INFO: ||train -- epoch:88 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00919
+24-07-21 09:08:15.520 - INFO: ||train -- epoch:88 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00653
+24-07-21 09:09:57.686 - INFO: ||train -- epoch:88 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00883
+24-07-21 09:11:39.671 - INFO: :-------------------------Train: Epoch:0088, timespend:0:05:06, avg_loss:0.00507
+24-07-21 09:11:39.676 - INFO: || Val -- epoch:88 / 100 ------step:1 / 500
+24-07-21 09:12:37.198 - INFO: :Validation: Epoch:0088, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8560,psnr_r:23.1268,psnr_x:31.3420, ssim_x:0.9502 
+24-07-21 09:12:37.238 - INFO: ----------------CheckPoint:  curEpoch:0088,  PSNR:31.342,  SSIM:0.950247
+24-07-21 09:12:37.445 - INFO: ||train -- epoch:89 / 100 --step:1 / 1500 --lr:0.0000313-----curloss: 0.00629
+24-07-21 09:14:19.426 - INFO: ||train -- epoch:89 / 100 --step:501 / 1500 --lr:0.0000313-----curloss: 0.00680
+24-07-21 09:16:01.663 - INFO: ||train -- epoch:89 / 100 --step:1001 / 1500 --lr:0.0000313-----curloss: 0.00635
+24-07-21 09:17:43.589 - INFO: :-------------------------Train: Epoch:0089, timespend:0:05:06, avg_loss:0.00506
+24-07-21 09:17:43.594 - INFO: || Val -- epoch:89 / 100 ------step:1 / 500
+24-07-21 09:18:41.399 - INFO: :Validation: Epoch:0089, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8456,psnr_r:23.1321,psnr_x:31.3880, ssim_x:0.9505 
+24-07-21 09:18:41.440 - INFO: ----------------CheckPoint:  curEpoch:0089,  PSNR:31.388,  SSIM:0.950477
+24-07-21 09:18:41.646 - INFO: ||train -- epoch:90 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00632
+24-07-21 09:20:23.708 - INFO: ||train -- epoch:90 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00415
+24-07-21 09:22:05.845 - INFO: ||train -- epoch:90 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00028
+24-07-21 09:23:47.761 - INFO: :-------------------------Train: Epoch:0090, timespend:0:05:06, avg_loss:0.00502
+24-07-21 09:23:47.767 - INFO: || Val -- epoch:90 / 100 ------step:1 / 500
+24-07-21 09:24:45.401 - INFO: :Validation: Epoch:0090, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8283,psnr_r:23.1160,psnr_x:31.3732, ssim_x:0.9504 
+24-07-21 09:24:45.442 - INFO: ----------------CheckPoint:  curEpoch:0090,  PSNR:31.3732,  SSIM:0.950436
+24-07-21 09:24:45.647 - INFO: ||train -- epoch:91 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.01033
+24-07-21 09:26:27.726 - INFO: ||train -- epoch:91 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00479
+24-07-21 09:28:09.843 - INFO: ||train -- epoch:91 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00534
+24-07-21 09:29:51.732 - INFO: :-------------------------Train: Epoch:0091, timespend:0:05:06, avg_loss:0.00502
+24-07-21 09:29:51.737 - INFO: || Val -- epoch:91 / 100 ------step:1 / 500
+24-07-21 09:30:49.228 - INFO: :Validation: Epoch:0091, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.7968,psnr_r:23.1275,psnr_x:31.3504, ssim_x:0.9506 
+24-07-21 09:30:49.269 - INFO: ----------------CheckPoint:  curEpoch:0091,  PSNR:31.3504,  SSIM:0.950647
+24-07-21 09:30:49.475 - INFO: ||train -- epoch:92 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00709
+24-07-21 09:32:31.431 - INFO: ||train -- epoch:92 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00611
+24-07-21 09:34:13.558 - INFO: ||train -- epoch:92 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00633
+24-07-21 09:35:55.470 - INFO: :-------------------------Train: Epoch:0092, timespend:0:05:06, avg_loss:0.00501
+24-07-21 09:35:55.475 - INFO: || Val -- epoch:92 / 100 ------step:1 / 500
+24-07-21 09:36:53.122 - INFO: :Validation: Epoch:0092, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.7945,psnr_r:23.1131,psnr_x:31.3594, ssim_x:0.9508 
+24-07-21 09:36:53.163 - INFO: ----------------CheckPoint:  curEpoch:0092,  PSNR:31.3594,  SSIM:0.950813
+24-07-21 09:36:53.368 - INFO: ||train -- epoch:93 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00385
+24-07-21 09:38:35.339 - INFO: ||train -- epoch:93 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00030
+24-07-21 09:40:17.503 - INFO: ||train -- epoch:93 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00648
+24-07-21 09:41:59.368 - INFO: :-------------------------Train: Epoch:0093, timespend:0:05:06, avg_loss:0.00501
+24-07-21 09:41:59.373 - INFO: || Val -- epoch:93 / 100 ------step:1 / 500
+24-07-21 09:42:56.941 - INFO: :Validation: Epoch:0093, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8060,psnr_r:23.1164,psnr_x:31.3630, ssim_x:0.9505 
+24-07-21 09:42:56.982 - INFO: ----------------CheckPoint:  curEpoch:0093,  PSNR:31.363,  SSIM:0.950497
+24-07-21 09:42:57.188 - INFO: ||train -- epoch:94 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00400
+24-07-21 09:44:39.148 - INFO: ||train -- epoch:94 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.01023
+24-07-21 09:46:21.306 - INFO: ||train -- epoch:94 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00027
+24-07-21 09:48:03.224 - INFO: :-------------------------Train: Epoch:0094, timespend:0:05:06, avg_loss:0.00501
+24-07-21 09:48:03.229 - INFO: || Val -- epoch:94 / 100 ------step:1 / 500
+24-07-21 09:49:00.967 - INFO: :Validation: Epoch:0094, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8112,psnr_r:23.1161,psnr_x:31.3629, ssim_x:0.9503 
+24-07-21 09:49:01.003 - INFO: ----------------CheckPoint:  curEpoch:0094,  PSNR:31.3629,  SSIM:0.950251
+24-07-21 09:49:01.208 - INFO: ||train -- epoch:95 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00567
+24-07-21 09:50:43.286 - INFO: ||train -- epoch:95 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00073
+24-07-21 09:52:25.453 - INFO: ||train -- epoch:95 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00654
+24-07-21 09:54:07.413 - INFO: :-------------------------Train: Epoch:0095, timespend:0:05:06, avg_loss:0.00500
+24-07-21 09:54:07.418 - INFO: || Val -- epoch:95 / 100 ------step:1 / 500
+24-07-21 09:55:05.143 - INFO: :Validation: Epoch:0095, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8574,psnr_r:23.1206,psnr_x:31.3671, ssim_x:0.9506 
+24-07-21 09:55:05.185 - INFO: ----------------CheckPoint:  curEpoch:0095,  PSNR:31.3671,  SSIM:0.950617
+24-07-21 09:55:05.392 - INFO: ||train -- epoch:96 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00854
+24-07-21 09:56:47.488 - INFO: ||train -- epoch:96 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00675
+24-07-21 09:58:29.671 - INFO: ||train -- epoch:96 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00066
+24-07-21 10:00:11.646 - INFO: :-------------------------Train: Epoch:0096, timespend:0:05:06, avg_loss:0.00500
+24-07-21 10:00:11.652 - INFO: || Val -- epoch:96 / 100 ------step:1 / 500
+24-07-21 10:01:09.276 - INFO: :Validation: Epoch:0096, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8301,psnr_r:23.1112,psnr_x:31.3691, ssim_x:0.9509 
+24-07-21 10:01:09.317 - INFO: ----------------CheckPoint:  curEpoch:0096,  PSNR:31.3691,  SSIM:0.950896
+24-07-21 10:01:09.523 - INFO: ||train -- epoch:97 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00586
+24-07-21 10:02:51.571 - INFO: ||train -- epoch:97 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00028
+24-07-21 10:04:33.758 - INFO: ||train -- epoch:97 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00880
+24-07-21 10:06:15.779 - INFO: :-------------------------Train: Epoch:0097, timespend:0:05:06, avg_loss:0.00500
+24-07-21 10:06:15.784 - INFO: || Val -- epoch:97 / 100 ------step:1 / 500
+24-07-21 10:07:13.470 - INFO: :Validation: Epoch:0097, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8275,psnr_r:23.1264,psnr_x:31.3787, ssim_x:0.9507 
+24-07-21 10:07:13.512 - INFO: ----------------CheckPoint:  curEpoch:0097,  PSNR:31.3787,  SSIM:0.950679
+24-07-21 10:07:13.718 - INFO: ||train -- epoch:98 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00661
+24-07-21 10:08:55.742 - INFO: ||train -- epoch:98 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00630
+24-07-21 10:10:37.928 - INFO: ||train -- epoch:98 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00614
+24-07-21 10:12:19.885 - INFO: :-------------------------Train: Epoch:0098, timespend:0:05:06, avg_loss:0.00500
+24-07-21 10:12:19.890 - INFO: || Val -- epoch:98 / 100 ------step:1 / 500
+24-07-21 10:13:17.524 - INFO: :Validation: Epoch:0098, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.7784,psnr_r:23.1089,psnr_x:31.3626, ssim_x:0.9509 
+24-07-21 10:13:17.559 - INFO: ----------------CheckPoint:  curEpoch:0098,  PSNR:31.3626,  SSIM:0.950887
+24-07-21 10:13:17.763 - INFO: ||train -- epoch:99 / 100 --step:1 / 1500 --lr:0.0000156-----curloss: 0.00410
+24-07-21 10:14:59.864 - INFO: ||train -- epoch:99 / 100 --step:501 / 1500 --lr:0.0000156-----curloss: 0.00356
+24-07-21 10:16:41.985 - INFO: ||train -- epoch:99 / 100 --step:1001 / 1500 --lr:0.0000156-----curloss: 0.00292
+24-07-21 10:18:23.949 - INFO: :-------------------------Train: Epoch:0099, timespend:0:05:06, avg_loss:0.00500
+24-07-21 10:18:23.954 - INFO: || Val -- epoch:99 / 100 ------step:1 / 500
+24-07-21 10:19:21.600 - INFO: :Validation: Epoch:0099, timespend:0:00:57, loss_avg:0.0097, psnr_l:24.8323,psnr_r:23.1048,psnr_x:31.3785, ssim_x:0.9504 
+24-07-21 10:19:21.640 - INFO: ----------------CheckPoint:  curEpoch:0099,  PSNR:31.3785,  SSIM:0.950424
+24-07-21 10:19:21.640 - INFO: ---------------Training time 10:02:17

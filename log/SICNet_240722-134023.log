@@ -1,0 +1,6 @@
+24-07-22 13:40:23.060 - INFO: no distributed
+24-07-22 13:40:23.071 - INFO: cur: NVIDIA GeForce RTX 3080--0; cuda: True; gpus: 1
+24-07-22 13:40:23.479 - INFO: teacher model:  /localhome/gba50/Projects/Colorization/SICNet-main/model/Teacher/chk.pth
+24-07-22 13:40:23.491 - INFO: number of teacher params: 0.81 M
+24-07-22 13:40:23.529 - INFO: number of model_main params: 1.09 M
+24-07-22 13:40:23.529 - INFO: ----start training-----0.2--10-0.1--10---
